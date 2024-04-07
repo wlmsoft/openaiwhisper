@@ -1,0 +1,3 @@
+# Whisper decode
+
+## length penalty
