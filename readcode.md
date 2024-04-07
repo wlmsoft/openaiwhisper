@@ -2,7 +2,7 @@
 
 ## length penalty
 
-'''
+```python
 class MaximumLikelihoodRanker(SequenceRanker):
     """
     Select the sample with the highest log probabilities, penalized using either
@@ -27,6 +27,6 @@ class MaximumLikelihoodRanker(SequenceRanker):
         # get the sequence with the highest score
         lengths = [[len(t) for t in s] for s in tokens]
         return [np.argmax(scores(p, l)) for p, l in zip(sum_logprobs, lengths)]
-'''
+```
 
 ## hallucination_silence_threshold
