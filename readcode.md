@@ -30,3 +30,4 @@ class MaximumLikelihoodRanker(SequenceRanker):
 ```
 
 ## hallucination_silence_threshold
+
